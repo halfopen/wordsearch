@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo "----------------------------------------------------"
+echo "-                                                  "
+echo "-wordSearch is setting up...         "
+echo "-CopyRight:halfopen                    "
+echo "-                                                  "
+echo "----------------------------------------------------"
+echo "Press any key to compile"
+read t
+
+
+cd /opt/wordSearch/src
+qmake -o Makefile Search.pro
+make
+mv wordSearch ../
+echo "removing source file"
+sudo rm -rf src/

@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+# If you want wordSearch to appear in a linux app launcher ("start menu"), install this by doing:
+# sudo desktop-file-install wordSearch.desktop
+Encoding=UTF-8
+[Desktop Entry]
+Comment=Enhanced interactive Python shell
+Exec=sh /usr/bin/wordSearch.sh
+
+GenericName[en_US]=wordSearch
+GenericName=wordSearch
+Name[en_US]=wordSearch
+Name=wordSearch
+Categories=Development;Utility;
+StartupNotify=false
+Terminal=false
+Type=Application
+Icon= /usr/share/app-install/icons/wordSearch.png

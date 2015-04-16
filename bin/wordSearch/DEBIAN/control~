@@ -1,0 +1,10 @@
+Package:wordSearch
+Version: 1.0
+Section: System
+Architecture: amd64
+Installed-Size: 4096
+Depends:
+Description:高级语言程序设计实验--大作业:批量文本文件的词频统计和检索
+Maintainer: qxk
+
+

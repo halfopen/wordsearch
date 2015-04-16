@@ -1,0 +1,2 @@
+cd /opt/wordSearch
+./wordSearch
